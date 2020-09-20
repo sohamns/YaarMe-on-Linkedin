@@ -1,0 +1,156 @@
+.jumbotron{
+   
+    height: 100px;
+    background-image: url("cover.jpg");
+    background-size: cover;
+}
+
+
+
+img{
+    padding-top: 50px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button1{
+    background-color: #1666C5;
+    color: white;
+    padding: 14px 300px;
+    font-size: 20px;
+    outline: none;
+    
+}
+
+.button2{
+    background-color: white;
+    color: #1666C5;
+    border: 2px solid #1666C5;
+    padding: 14px 300px;
+    font-size: 20px;
+    margin-left: 10px;
+    outline: none;
+}
+.button2:hover{
+  background-color: #b6cde9;
+  color: white;
+}
+
+.tab {
+    overflow: hidden;
+    border: none;
+    background-color: white;
+    margin-top: 50px;
+    
+    
+  }
+  
+
+  .tab button {
+    background-color: white;
+    float: left;
+    border: 0px;
+    outline: 0px;
+    cursor: pointer;
+    padding: 14px 170px;
+    transition: 0.3s;
+  }
+  
+  .tab button:hover {
+    background-color: #ccc;
+  }
+  
+
+  .tab button.active {
+    border-bottom: 2px solid #1666C5;
+  }
+  
+
+  .tabcontent {
+    display: none;
+    padding: 20px 0px 50px 10px;
+    border: 4px solid #f1f1f1;
+    border-top: none;
+  }
+
+  .btn{
+      padding: 6px 12px;
+      background-color: #f1f1f1;
+      border-radius: 50px;
+      float: left;
+      border: 0px;
+      outline: 0px;
+      cursor: pointer;
+      transition: 0.3s;
+  }
+
+  .btn.active{
+      background-color: #f1f1f1;
+  }
+
+  .btn:hover{
+      background-color: #ccc;
+  }
+
+  .tabcontent1 {
+    display: none;
+    padding: 50px 100px 50px 10px ;
+    border: none;
+    border-top: none;
+  }
+
+  .block {
+    
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: left;
+    padding: 20px 100px 10px 0px;
+  }
+
+  .block:hover{
+    background-color: #f1f1f1;
+  }
+  #i1 {
+    vertical-align: middle;
+  }
+  .btn-group button {
+    background-color: white; 
+    
+    color: black;
+    padding: 10px 24px;
+    cursor: pointer;
+    float: left;
+    outline: 0px;
+  }
+  .btn-group button:hover {
+    background-color: #ccc;
+  }
+
+  .button3{
+    background-color: white;
+    color: #1666C5;
+    border: 2px solid #1666C5;
+    padding: 12px 30px;
+    font-size: 20px;
+    border-radius: 50%;
+    outline: none;
+    
+  }
+
+  .button3:hover{
+    background-color: #f1f1f1;
+  }
+  
+  .loc{
+    
+    border-top: 4px solid #f1f1f1;
+    
+  }
+
+
+  

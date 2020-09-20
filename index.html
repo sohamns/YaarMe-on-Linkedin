@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title> Profile Page </title>
+</head>
+<body onload="document.getElementById('defaultOpen').click();">
+    <div class="jumbotron">
+        <img src="Yaarme-logo.png" width="100" height="100">
+    </div>
+    
+    <header style="margin-left: 10px;">
+        <p style="font-size: 50px; padding: 30px 0px 0px 0px;">YaarMe</p>
+        <p style="color: rgb(233, 170, 170);">Information Services | Raipur, Chattisgarh | 96 Followers</p>
+        <p style="padding-bottom: 20px;">Building the world's most luxurious social media.</p>
+        <button class="button button1" onclick="myFunction()" id="swap">FOLLOW</button>
+        <script>
+
+            function myFunction() {
+                var change = document.getElementById("swap");
+                if (change.innerHTML == "FOLLOW")
+                {
+                    change.innerHTML = "UNFOLLOW";
+                }
+                else {
+                    change.innerHTML = "FOLLOW";
+                }
+            }
+
+        </script>
+
+        <button onclick="document.location='https://yaarme.com/'" class="button button2">Visit Website</button>
+
+        <a href="#People"><button type="button" class="block"><b>2 employees</b> on Linkedin</button></a>
+
+    </header>
+    <div class="tab">
+        <button class="tablinks active" onclick="openTab(event, 'Home')" id="defaultOpen">Home</button>
+        <button class="tablinks" onclick="openTab(event, 'About')">About</button>
+        <button class="tablinks" onclick="openTab(event, 'Jobs')">Jobs</button>
+        <button class="tablinks" onclick="openTab(event, 'People')">People</button>
+    </div>
+    <div id="Home" class="tabcontent">
+        <h3>Posts</h3>
+        
+        <button class="tablinks1 active btn" onclick="openinTab(event, 'All')" id="defaultOpen">All</button>
+        <button class="tablinks1 btn" style="margin-left: 10px;" onclick="openinTab(event, 'Images')">Images</button>
+        <button class="tablinks1 btn" style="margin-left: 10px;" onclick="openinTab(event, 'Videos')">Videos</button>
+        <button class="tablinks1 btn" style="margin-left: 10px;" onclick="openinTab(event, 'Documents')">Documents</button>
+        
+
+        <div id="All" class="tabcontent1 ">
+            <div class="caption">
+                <a href="#top"><button type="button" class="block" ><img src="Yaarme-logo.png" width="80" height="80" id="i1"><b>YaarMe</b></button></a>
+                
+                <p style="border: 3px;">We have just started working to develop a social media platform which aim to connect you with your friends and family in most convenient way. <br> Your comments and suggestions would be greatly appreciated.</p>
+                
+            
+                <p style="color: #1666C5;"> <a href="https://yaarme.com/">https://yaarme.com/</a>  #yaarme #yaarmelife #socialmedia #launchingsoon</p>
+            </div>
+            <a href="https://yaarme.com/"><img src="Yaarme-logo.png" alt="YaarMe"></a>
+            <div class="btn-group" style="padding-bottom: 20px;">
+                <button style="width: 25%; border-left: 1px; border-right: 1px;">Like</button>
+                <button style="width: 25%; border-left: 1px; border-right: 1px;">Comment</button>
+                <button style="width: 25%; border-left: 1px; border-right: 1px;">Share</button>
+                <button style="width: 25%; border-left: 1px; border-right: 1px;">Send</button>
+              </div>
+              
+        </div>
+        <div id="Images" class="tabcontent1">
+            <div style="padding: 100px 0px 100px 500px;">
+                <p style="font-size: 20px;">No Posts Yet.</p>
+                <p>Check back later for posts!</p>
+            </div>
+        </div>
+        <div id="Videos" class="tabcontent1">
+            <div style="padding: 100px 0px 100px 500px;">
+                <p style="font-size: 20px;">No Posts Yet.</p>
+                <p>Check back later for posts!</p>
+            </div>
+        </div>
+        <div id="Documents" class="tabcontent1">
+            <div style="padding: 100px 0px 100px 500px;">
+                <p style="font-size: 20px;">No Posts Yet.</p>
+                <p>Check back later for posts!</p>
+            </div>
+        </div>
+    </div>
+      
+    <div id="About" class="tabcontent">
+        <h3>Overview</h3>
+        <p>Connecting you to the people and community you love.</p>
+        <table style="width: 100%; font-family: Arial, Helvetica, sans-serif; padding-bottom: 20px;">
+            <tr>
+                <td>Website</td>
+                <td><a href="https://yaarme.com/">https://yaarme.com/</a></td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td>9169538457</td>
+            </tr>
+            <tr>
+                <td>Industry</td>
+                <td>Information Services</td>
+            </tr>
+            <tr>
+                <td>Company Size</td>
+                <td>11-50 employees</td>
+            </tr>
+            <tr>
+                <td>Headquarters</td>
+                <td> Raipur, Chhattisgarh</td>
+            </tr>
+            <tr>
+                <td>Type</td>
+                <td>Privately Held</td>
+            </tr>
+            <tr>
+                <td>Founded</td>
+                <td>2020</td>
+            </tr>
+
+        </table>
+
+        <div class="loc">
+            <p>Location</p>
+            <p><b>Primary</b></p>
+            <p style="font-size: 15px;">Headquarters</p>
+            <p>NIT Raipur, Raipur, Chhattisgarh IN</p>
+            <a href="https://www.google.com/maps/place/National+Institute+of+Technology,+Raipur/@21.2497222,81.6028404,17z/data=!4m12!1m6!3m5!1s0x3a28dde213f66723:0x21543965c50c43c7!2sNational+Institute+of+Technology,+Raipur!8m2!3d21.2497222!4d81.6050291!3m4!1s0x3a28dde213f66723:0x21543965c50c43c7!8m2!3d21.2497222!4d81.6050291" target="_blank">Get Directions</a>
+        </div>
+        
+    </div>
+      
+    <div id="Jobs" class="tabcontent">
+        <div>
+            <p style="font-size: 20px;"><b>Create a job alert for YaarMe <button class="button button3">+</button></b></p>
+        </div>
+        <div style="padding: 100px 0px 100px 500px;">
+            <p style="font-size: 20px;">There are no jobs available</p>
+            <p>Check back later or create a job alert to be notified when relevant jobs are posted.</p>
+        </div>
+    </div>
+    
+    <div id="People" class="tabcontent">
+        <p>2 employees</p>
+        <table style="width: 100%;">
+        <tr>
+            <td ><button type="button" class="block" onclick="document.location='https://in.linkedin.com/in/jessica-vaz'"><b>Jessica Vaz</b> <br> Web Developer </button></td>
+            <td><button class="button button3">+</button></td>
+        </tr>
+        <tr>
+            <td><button type="button" class="block" onclick="document.location='https://in.linkedin.com/in/sunny-bhardwaj-7b615a1b6?trk=people-guest_people_search-card'"><b>Sunny Bhardwaj</b> <br>Android app developer trainee at Internshala / java / C /kotlin /XML </button></td>
+            <td><button class="button button3">+</button></td>
+        </tr>
+        <tr>
+            <td><button type="button" class="block" onclick="document.location='https://in.linkedin.com/in/akashranjanverma'"><b>Akash Ranjan verma</b> <br> Developing world's most luxurious social media platform | web, app and database developer | NIT Raipur</td>
+            <td><button class="button button3">+</button></td>
+        </tr>
+        </table>    
+    </div>
+
+</body>
+</html>
